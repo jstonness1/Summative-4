@@ -17,14 +17,24 @@ Prt("\033[H\033[2J");
         Prt("In this game you will  have to help your snake around a maze.");
 
         
-        int a = 20;
-        int b = 20;
-        printRectangle(a, b);
-        double geometryAnswer = a * b;
-        printRectangle(a, b);
-System.out.println(geometryAnswer);
-
-
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        printStars(50);
+        
 
 
 
@@ -37,5 +47,13 @@ System.out.println(geometryAnswer);
     }
     public static void Prn(String string) {
         System.out.print(string);
+    }
+    public static void printStars(int times) {
+		// DONE
+		System.out.println("");
+		for (int printStars = 0; printStars < times; printStars++) {
+			System.out.print("*");
+		}
+		
     }
 }
