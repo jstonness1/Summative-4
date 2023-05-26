@@ -26,7 +26,7 @@ Prt("\033[H\033[2J");
         int[][] map = loadMap();
         String playerSprite = "@";
         int playerRow = 3;
-        int playerCol = 0;
+        int playerCol = 4;
         boolean done = false;
         while (!done) {
             
